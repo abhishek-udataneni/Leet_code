@@ -1,0 +1,284 @@
+This website was my main source of preperation for algorithms and data structures. I solved 120 medium difficulty problems, 80 easy difficulty problems, and 10 hard difficulty problems. When I would get stuck with these questions I would watch youtubers Kevin Naughton and Nick White. Another thing I did was read the discussion boards and compare my solutions. A lot of the time I would come up with a good solution, but someone would have written it in a cleaner way.
+
+This might be odd but when i solved the problem I would clear my editor and then rewrite the solution several times. This idea is based on when I was a child I would write something down over and over until I remembered it.
+
+When it came to systems design I have a white board at my place of work and a fellow engineer would help me go through and understand concepts. In addition to that I would watch Guarav Sen and Tuschar Roy on YouTube.
+
+The problems I were given during the interview fall under these categories
+
+1 Breadth First Search
+2 Sliding Window
+3 Two Pointer
+4 Divide and Conquer
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2 Add Two Numbers 23.0% Medium
+3 Longest Substring Without Repeating Characters 21.9% Medium
+5 Longest Palindromic Substring 23.0% Medium
+8 String to Integer (atoi) 13.5% Easy
+15 3Sum 18.8% Medium
+17 Letter Combinations of a Phone Number 28.6% Medium
+20 Valid Parentheses 29.3% Easy
+21 Merge Two Sorted Lists 35.4% Easy
+23 Merge k Sorted Lists 23.3% Hard
+42 Trapping Rain Water 32.2% Hard
+48 Rotate Image 34.6% Medium
+49 Group Anagrams 27.4% Medium
+78 Subsets 31.3% Medium
+89 Gray Code 36.3% Medium
+98 Validate Binary Search Tree 20.9% Medium
+102 Binary Tree Level Order Traversal 32.7% Easy
+121 Best Time to Buy and Sell Stock 36.0% Easy
+126 Word Ladder II 13.6% Hard
+127 Word Ladder 19.6% Medium
+138 Copy List with Random Pointer 26.1% Hard
+139 Word Break 25.2% Medium
+141 Linked List Cycle 37.0% Medium
+146 LRU Cache 15.8% Hard
+155 Min Stack 22.0% Easy
+160 Intersection of Two Linked Lists 30.2% Easy
+167 Two Sum II – Input array is sorted 47.8% Medium
+186 Reverse Words in a String II 29.1% Medium
+199 Binary Tree Right Side View 34.3% Medium
+200 Number of Islands 27.6% Medium
+204 Count Primes 24.2% Easy
+206 Reverse Linked List 39.4% Easy
+215 Kth Largest Element in an Array 33.1% Medium
+234 Palindrome Linked List 28.0% Easy
+235 Lowest Common Ancestor of a Binary Search Tree 37.7% Easy
+236 Lowest Common Ancestor of a Binary Tree 28.8% Medium
+238 Product of Array Except Self 42.6% Medium
+239 Sliding Window Maximum 27.3% Hard
+240 Search a 2D Matrix II 34.4% Medium
+242 Valid Anagram 41.7% Easy
+297 Serialize and Deserialize Binary Tree 27.8% Hard
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+https://play.google.com/books/reader?id=tvhjJQAAAEAJ&pg=GBS.PA205
+https://www.youtube.com/watch?v=jSvoE-_Yhs4
+https://xiaoyunyang.github.io/post/the-coding-interview-what-to-expect/
+https://medium.com/outco/how-to-solve-sliding-window-problems-28d67601a66
+https://medium.com/@koheiarai94/60-leetcode-questions-to-prepare-for-coding-interview-8abbb6af589e
+https://www.quora.com/Is-practicing-500-programming-questions-on-LeetCode-HackerEarth-etc-enough-to-prepare-for-a-Google-interview
+https://www.educative.io/courses/grokking-the-coding-interview/gxrnL0GQGqk
+https://github.com/careercup/CtCI-6th-Edition-JavaScript/tree/ec307944f9c824376ea36bf9d730b0b709b9a923
+https://www.google.com/search?hl=ncr&q=Grokking+the+Coding+Interview%3A+Patterns+for+Coding+Questions+github
+https://github.com/SeanPrashad/leetcode-patterns
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Pattern: Sliding Window
+Introduction
+Preview
+Maximum Sum Subarray of Size K (easy)
+Preview
+Smallest Subarray with a given sum (easy)
+Preview
+Longest Substring with K Distinct Characters (medium)
+Preview
+Fruits into Baskets (medium)
+No-repeat Substring (hard)
+Longest Substring with Same Letters after Replacement (hard)
+Longest Subarray with Ones after Replacement (hard)
+Problem Challenge 1
+Solution Review: Problem Challenge 1
+Problem Challenge 2
+Solution Review: Problem Challenge 2
+Problem Challenge 3
+Solution Review: Problem Challenge 3
+Problem Challenge 4
+Solution Review: Problem Challenge 4
+Pattern: Two Pointers
+Introduction
+Pair with Target Sum (easy)
+Remove Duplicates (easy)
+Squaring a Sorted Array (easy)
+Triplet Sum to Zero (medium)
+Triplet Sum Close to Target (medium)
+Triplets with Smaller Sum (medium)
+Subarrays with Product Less than a Target (medium)
+Dutch National Flag Problem (medium)
+Problem Challenge 1
+Solution Review: Problem Challenge 1
+Problem Challenge 2
+Solution Review: Problem Challenge 2
+Problem Challenge 3
+Solution Review: Problem Challenge 3
+Pattern: Fast & Slow pointers
+Introduction
+LinkedList Cycle (easy)
+Start of LinkedList Cycle (medium)
+Happy Number (medium)
+Middle of the LinkedList (easy)
+Problem Challenge 1
+Solution Review: Problem Challenge 1
+Problem Challenge 2
+Solution Review: Problem Challenge 2
+Problem Challenge 3
+Solution Review: Problem Challenge 3
+Pattern: Merge Intervals
+Introduction
+Preview
+Merge Intervals (medium)
+Preview
+Insert Interval (medium)
+Preview
+Intervals Intersection (medium)
+Preview
+Conflicting Appointments (medium)
+Problem Challenge 1
+Solution Review: Problem Challenge 1
+Problem Challenge 2
+Solution Review: Problem Challenge 2
+Problem Challenge 3
+Solution Review: Problem Challenge 3
+Pattern: Cyclic Sort
+Introduction
+Cyclic Sort (easy)
+Find the Missing Number (easy)
+Find all Missing Numbers (easy)
+Find the Duplicate Number (easy)
+Find all Duplicate Numbers (easy)
+Problem Challenge 1
+Solution Review: Problem Challenge 1
+Problem Challenge 2
+Solution Review: Problem Challenge 2
+Problem Challenge 3
+Solution Review: Problem Challenge 3
+Pattern: In-place Reversal of a LinkedList
+Introduction
+Reverse a LinkedList (easy)
+Reverse a Sub-list (medium)
+Reverse every K-element Sub-list (medium)
+Problem Challenge 1
+Solution Review: Problem Challenge 1
+Problem Challenge 2
+Solution Review: Problem Challenge 2
+Pattern: Tree Breadth First Search
+Introduction
+Binary Tree Level Order Traversal (easy)
+Reverse Level Order Traversal (easy)
+Zigzag Traversal (medium)
+Level Averages in a Binary Tree (easy)
+Minimum Depth of a Binary Tree (easy)
+Level Order Successor (easy)
+Connect Level Order Siblings (medium)
+Problem Challenge 1
+Solution Review: Problem Challenge 1
+Problem Challenge 2
+Solution Review: Problem Challenge 2
+Problem Challenge 3
+Solution Review: Problem Challenge 3
+Pattern: Tree Depth First Search
+Introduction
+Binary Tree Path Sum (easy)
+All Paths for a Sum (medium)
+Sum of Path Numbers (medium)
+Path With Given Sequence (medium)
+Count Paths for a Sum (medium)
+Problem Challenge 1
+Solution Review: Problem Challenge 1
+Problem Challenge 2
+Solution Review: Problem Challenge 2
+Pattern: Two Heaps
+Introduction
+Find the Median of a Number Stream (medium)
+Sliding Window Median (hard)
+Maximize Capital (hard)
+Problem Challenge 1
+Solution Review: Problem Challenge 1
+Pattern: Subsets
+Introduction
+Preview
+Subsets (easy)
+Preview
+Subsets With Duplicates (easy)
+Preview
+Permutations (medium)
+Preview
+String Permutations by changing case (medium)
+Balanced Parentheses (hard)
+Unique Generalized Abbreviations (hard)
+Problem Challenge 1
+Solution Review: Problem Challenge 1
+Problem Challenge 2
+Solution Review: Problem Challenge 2
+Problem Challenge 3
+Solution Review: Problem Challenge 3
+Pattern: Modified Binary Search
+Introduction
+Order-agnostic Binary Search (easy)
+Ceiling of a Number (medium)
+Next Letter (medium)
+Number Range (medium)
+Search in a Sorted Infinite Array (medium)
+Minimum Difference Element (medium)
+Bitonic Array Maximum (easy)
+Problem Challenge 1
+Solution Review: Problem Challenge 1
+Problem Challenge 2
+Solution Review: Problem Challenge 2
+Problem Challenge 3
+Solution Review: Problem Challenge 3
+Pattern: Bitwise XOR
+Introduction
+Single Number (easy)
+Two Single Numbers (medium)
+Complement of Base 10 Number (medium)
+Problem Challenge 1
+Solution Review: Problem Challenge 1
+Pattern: Top 'K' Elements
+Introduction
+Top 'K' Numbers (easy)
+Kth Smallest Number (easy)
+'K' Closest Points to the Origin (easy)
+Connect Ropes (easy)
+Top 'K' Frequent Numbers (medium)
+Frequency Sort (medium)
+Kth Largest Number in a Stream (medium)
+'K' Closest Numbers (medium)
+Maximum Distinct Elements (medium)
+Sum of Elements (medium)
+Rearrange String (hard)
+Problem Challenge 1
+Solution Review: Problem Challenge 1
+Problem Challenge 2
+Solution Review: Problem Challenge 2
+Problem Challenge 3
+Solution Review: Problem Challenge 3
+Pattern: K-way merge
+Introduction
+Merge K Sorted Lists (medium)
+Kth Smallest Number in M Sorted Lists (Medium)
+Kth Smallest Number in a Sorted Matrix (Hard)
+Preview
+Smallest Number Range (Hard)
+Problem Challenge 1
+Solution Review: Problem Challenge 1
+Pattern : 0/1 Knapsack (Dynamic Programming)
+Introduction
+0/1 Knapsack (medium)
+Equal Subset Sum Partition (medium)
+Subset Sum (medium)
+Minimum Subset Sum Difference (hard)
+Problem Challenge 1
+Solution Review: Problem Challenge 1
+Problem Challenge 2
+Solution Review: Problem Challenge 2
+Pattern: Topological Sort (Graph)
+Introduction
+Topological Sort (medium)
+Tasks Scheduling (medium)
+Tasks Scheduling Order (medium)
+All Tasks Scheduling Orders (hard)
+Alien Dictionary (hard)
+Problem Challenge 1
+Solution Review: Problem Challenge 1
+Problem Challenge 2
+Solution Review: Problem Challenge 2
+Miscellaneous
+Kth Smallest Number (hard)

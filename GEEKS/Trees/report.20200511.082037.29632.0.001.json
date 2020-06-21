@@ -1,0 +1,451 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200511.082037.29632.0.001.json",
+    "dumpEventTime": "2020-05-11T08:20:37Z",
+    "dumpEventTimeStamp": "1589165437092",
+    "processId": 29632,
+    "cwd": "C:\\Users\\105064\\Desktop\\side-projects\\Leet_code\\GEEKS\\Trees",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "spiralTreeTraversal.js"
+    ],
+    "nodejsVersion": "v12.14.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.14.0",
+      "v8": "7.7.299.13-node.16",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.14.0/node-v12.14.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.14.0/node-v12.14.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.14.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18362",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+        "speed": 1992,
+        "user": 20071671,
+        "nice": 0,
+        "sys": 29907343,
+        "idle": 659870875,
+        "irq": 8553203
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+        "speed": 1992,
+        "user": 16177343,
+        "nice": 0,
+        "sys": 19537250,
+        "idle": 674135031,
+        "irq": 220515
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+        "speed": 1992,
+        "user": 35134296,
+        "nice": 0,
+        "sys": 31590734,
+        "idle": 643124593,
+        "irq": 292437
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+        "speed": 1992,
+        "user": 18889796,
+        "nice": 0,
+        "sys": 10920296,
+        "idle": 680039531,
+        "irq": 215484
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+        "speed": 1992,
+        "user": 30613656,
+        "nice": 0,
+        "sys": 18342093,
+        "idle": 660893875,
+        "irq": 236953
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+        "speed": 1992,
+        "user": 15703437,
+        "nice": 0,
+        "sys": 9180734,
+        "idle": 684965453,
+        "irq": 200703
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+        "speed": 1992,
+        "user": 22955125,
+        "nice": 0,
+        "sys": 12220843,
+        "idle": 674673656,
+        "irq": 220281
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+        "speed": 1992,
+        "user": 17570796,
+        "nice": 0,
+        "sys": 10116312,
+        "idle": 682162515,
+        "irq": 192875
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "vEthernet (DockerNAT)",
+        "internal": false,
+        "mac": "00:15:5d:13:f5:00",
+        "address": "fe80::de9:ecdc:3cf8:c277",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 5
+      },
+      {
+        "name": "vEthernet (DockerNAT)",
+        "internal": false,
+        "mac": "00:15:5d:13:f5:00",
+        "address": "10.0.75.1",
+        "netmask": "255.255.255.240",
+        "family": "IPv4"
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "20:16:b9:ee:b0:f6",
+        "address": "fe80::1120:ec85:6e39:401",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 17
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "20:16:b9:ee:b0:f6",
+        "address": "192.168.1.3",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "vEthernet (Default Switch)",
+        "internal": false,
+        "mac": "00:15:5d:34:2b:b2",
+        "address": "fe80::8070:3217:6bff:d1c5",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 24
+      },
+      {
+        "name": "vEthernet (Default Switch)",
+        "internal": false,
+        "mac": "00:15:5d:34:2b:b2",
+        "address": "172.17.101.209",
+        "netmask": "255.255.255.240",
+        "family": "IPv4"
+      }
+    ],
+    "host": "WLH18GCT"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff738951729",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10873"
+    },
+    {
+      "pc": "0x00007ff738955b4c",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28316"
+    },
+    {
+      "pc": "0x00007ff738954b08",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24152"
+    },
+    {
+      "pc": "0x00007ff738a4369b",
+      "symbol": "v8::base::CPU::has_sse+37723"
+    },
+    {
+      "pc": "0x00007ff7392482de",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff739230321",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff7390fdbec",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff739113c0d",
+      "symbol": "v8::internal::Factory::AllocateRawFixedArray+61"
+    },
+    {
+      "pc": "0x00007ff73911afc4",
+      "symbol": "v8::internal::Factory::NewFixedArrayWithFiller+52"
+    },
+    {
+      "pc": "0x00007ff73911af81",
+      "symbol": "v8::internal::Factory::NewUninitializedFixedArray+65"
+    },
+    {
+      "pc": "0x00007ff738ffbdaf",
+      "symbol": "v8::Object::GetIsolate+6767"
+    },
+    {
+      "pc": "0x00007ff738eaf13a",
+      "symbol": "v8::internal::OrderedHashMap::ValueAt+61274"
+    },
+    {
+      "pc": "0x00007ff73967404d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+567949"
+    },
+    {
+      "pc": "0x00000250bc9c462d",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2821275648,
+    "totalCommittedMemory": 2821275648,
+    "usedMemory": 2785766168,
+    "availableMemory": 16989384,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 33554432,
+        "capacity": 16759808,
+        "used": 0,
+        "available": 16759808
+      },
+      "old_space": {
+        "memorySize": 2469888,
+        "committedMemory": 2469888,
+        "capacity": 1412744,
+        "used": 1412744,
+        "available": 0
+      },
+      "code_space": {
+        "memorySize": 425984,
+        "committedMemory": 425984,
+        "capacity": 157408,
+        "used": 157408,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 528384,
+        "committedMemory": 528384,
+        "capacity": 206560,
+        "used": 206560,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 1851203584,
+        "committedMemory": 1851203584,
+        "capacity": 1851175368,
+        "used": 1851175368,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 3552,
+        "used": 3552,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 932782080,
+        "committedMemory": 932782080,
+        "capacity": 932778240,
+        "used": 932778240,
+        "available": 0
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 2.656,
+    "kernelCpuSeconds": 0.937,
+    "cpuConsumptionPercent": 119.767,
+    "maxRss": 2833076224,
+    "pageFaults": {
+      "IORequired": 697418,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 1,
+      "writes": 6
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "ANDROID_SDK_HOME": "C:\\Android",
+    "APPDATA": "C:\\Users\\105064\\AppData\\Roaming",
+    "COLORTERM": "truecolor",
+    "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "WLH18GCT",
+    "COMSPEC": "C:\\WINDOWS\\system32\\cmd.exe",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "ESET_OPTIONS": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ",
+    "EXEPATH": "C:\\Users\\105064\\AppData\\Local\\Programs\\Git\\bin",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "GROOVY_HOME": "C:\\PROGRA~2\\Groovy\\GROOVY~1.5",
+    "HOME": "C:\\Users\\105064",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\105064",
+    "JAVA_HOME": "C:\\Program Files\\Java\\jdk1.8.0_131",
+    "LANG": "en_US.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\105064\\AppData\\Local",
+    "LOGONSERVER": "\\\\TFUSADC",
+    "M3_HOME": "D:\\apache-maven-3.6.0-bin\\apache-maven-3.6.0",
+    "MSYSTEM": "MINGW64",
+    "MYSQLCONNECTOR_ASSEMBLIESPATH": "C:\\Program Files (x86)\\MySQL\\Connector NET 8.0\\Assemblies\\v4.5.2",
+    "NUMBER_OF_PROCESSORS": "8",
+    "OLDPWD": "C:/Users/105064/Desktop/side-projects/Leet_code/GEEKS",
+    "OS": "Windows_NT",
+    "OneDrive": "C:\\Users\\105064\\OneDrive - ThoughtFocus Information Technologies Pvt Ltd",
+    "OneDriveCommercial": "C:\\Users\\105064\\OneDrive - ThoughtFocus Information Technologies Pvt Ltd",
+    "PATH": "C:\\Users\\105064\\AppData\\Local\\Programs\\Git\\mingw64\\bin;C:\\Users\\105064\\AppData\\Local\\Programs\\Git\\usr\\bin;C:\\Users\\105064\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Sennheiser\\SoftphoneSDK\\;C:\\Program Files (x86)\\Google\\Google Apps Sync\\;C:\\Program Files (x86)\\Google\\Google Apps Migration\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Java\\jdk1.8.0_131\\bin\\;D:\\apache-maven-3.6.0-bin\\apache-maven-3.6.0\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\nginx\\nginx-1.15.8;C:\\Program Files\\PuTTY\\;C:\\PROGRA~2\\Groovy\\GROOVY~1.5\\bin\\;C:\\spring\\spring-boot-cli-2.1.3.RELEASE-bin\\spring-2.1.3.RELEASE\\bin\\;C:\\Program Files\\Cloud Foundry;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Android;C:\\Windows\\System32;C:\\Program Files\\nodejs\\;C:\\Program Files\\Amazon\\AWSCLIV2DevPreview\\;C:\\Users\\105064\\.windows-build-tools\\python27\\;C:\\Users\\105064\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\105064\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\105064\\AppData\\Local\\GitHubDesktop\\bin;D:\\apache-maven-3.6.0-bin\\apache-maven-3.6.0\\bin;C:\\Users\\105064\\AppData\\Local\\Programs\\Fiddler;C:\\Users\\105064\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin;C:\\Users\\105064\\AppData\\Local\\now-cli;C:\\Users\\105064\\AppData\\Local\\Android\\sdk\\platform-tools;C:\\Users\\105064\\AppData\\Local\\Yarn\\bin;C:\\Users\\105064\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\105064\\AppData\\Roaming\\npm;C:\\Users\\105064\\.babun",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.groovy;.gy",
+    "PLINK_PROTOCOL": "ssh",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "8e0a",
+    "PROGRAMFILES": "C:\\Program Files",
+    "PS1": "\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ ",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "PWD": "C:/Users/105064/Desktop/side-projects/Leet_code/GEEKS/Trees",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "SESSIONNAME": "Console",
+    "SHLVL": "1",
+    "SPRING_HOME": "C:\\spring\\spring-boot-cli-2.1.3.RELEASE-bin\\spring-2.1.3.RELEASE",
+    "SYSTEMDRIVE": "C:",
+    "SYSTEMROOT": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\105064\\AppData\\Local\\Temp",
+    "TERM": "cygwin",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.42.1",
+    "TMP": "C:\\Users\\105064\\AppData\\Local\\Temp",
+    "USERDNSDOMAIN": "TFCORP.COM",
+    "USERDOMAIN": "TFCORP",
+    "USERDOMAIN_ROAMINGPROFILE": "TFCORP",
+    "USERNAME": "105064",
+    "USERPROFILE": "C:\\Users\\105064",
+    "VS120COMNTOOLS": "C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\Common7\\Tools\\",
+    "WINDIR": "C:\\WINDOWS",
+    "_": "C:/Program Files/nodejs/node"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\winmmbase.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\System32\\UMPDC.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll"
+  ]
+}
